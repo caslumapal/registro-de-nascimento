@@ -3,7 +3,7 @@ async function obterDadosDoRegistro() {
   const userInput = contractNumberField.value * 1;
   alert("valorInformadoPeloUsuario: " + userInput);
   try {
-    const arrayDadosNascimento = await smartContract.Nascimento(userInput);
+    const arrayDadosNascimento = await smartContract.Nascimentos (userInput);
     console.log(arrayDadosNascimento);
     document.getElementById("genitor").innerText = arrayDadosNascimento[0];
     document.getElementById("genitora").innerText = arrayDadosNascimento[1];
