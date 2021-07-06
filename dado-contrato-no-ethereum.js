@@ -32,7 +32,7 @@ const ABI = [
 				"name": "",
 				"type": "bool"
 			}
-		],
+		]
 		"stateMutability": "nonpayable",
 		"type": "function"
 	},
