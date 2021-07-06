@@ -54,4 +54,4 @@ async function saveFormData() {
     console.error(err);
     alert("Houve um erro ao salvar o Registro de Nascimento na Blockchain");
   }
-} 
+}
