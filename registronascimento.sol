@@ -24,10 +24,10 @@ contract RegistroDeNascimento {
         string memory paramGenitor,
         string memory paramGenitora,
         string memory paramNomeCrianca,
-        uint paramdataDeNascimento
+        uint paramDataDeNascimento
     ) external returns (bool) {
         require(msg.sender == registrador, "Somente o registrador pode efetuar a lavratura do assento");
-        Nascimento memory novoRegistroNascimento = Nascimento(paramGenitor, paramGenitora, paramNomeCrianca, paramdataDeNascimento);
+        Nascimento memory novoRegistroNascimento = Nascimento(paramGenitor, paramGenitora, paramNomeCrianca, paramDataDeNascimento);
         Nascimentos.push(novoRegistroNascimento);
         return true;
     }
