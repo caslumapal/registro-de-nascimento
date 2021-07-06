@@ -1,5 +1,5 @@
 async function obterDadosDoRegistro() {
-  let contractNumberField = document.getElementById("contractNumber");
+  let contractNumberField = document.getElementById("numeroDoRegistro");
   const userInput = contractNumberField.value * 1;
   alert("valorInformadoPeloUsuario: " + userInput);
   try {
