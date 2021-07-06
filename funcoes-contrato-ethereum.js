@@ -39,7 +39,7 @@ async function saveFormData() {
       document.frmNascimento.paramGenitor.value,
       document.frmNascimento.paramGenitora.value,
       document.frmNascimento.paramNomeCrianca.value,
-      document.frmNascimento.paramdataDeNascimento.value
+      document.frmNascimento.paramDataDeNascimento.value
     );
     console.log("transacao enviada ao metamask. pendente...", tx);
     alert("Transação enviada... " + tx.hash + " aguarde a confirmação da Blockcnain...");
