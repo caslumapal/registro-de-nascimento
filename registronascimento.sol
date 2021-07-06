@@ -20,7 +20,7 @@ contract RegistroDeNascimento {
         registrador = msg.sender;
     }
 
-    function registerRental(
+    function RegistrarNascimento(
         string memory paramGenitor,
         string memory paramGenitora,
         string memory paramNomeCrianca,
