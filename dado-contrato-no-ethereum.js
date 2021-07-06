@@ -21,7 +21,7 @@ const ABI =[
 			},
 			{
 				"internalType": "uint256",
-				"name": "paramdataDeNascimento",
+				"name": "paramDataDeNascimento",
 				"type": "uint256"
 			}
 		],
