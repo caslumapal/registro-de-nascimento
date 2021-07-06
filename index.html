@@ -15,16 +15,16 @@
     <section>
       <form action="#" method="POST" name="frmNascimento" id="frmNascimento">
         <label for="paramGenitor">Nome completo do genitor: </label>
-        <input type="text" name="paramGenitor" id="paramGenitor" size="100" maxlength="100" required autofocus />
+        <input type="text" name="paramGenitor" id="paramGenitor" size="100" min="1" max="100" required autofocus />
         <br />
         <label for="paramGenitora">Nome completo da genitora: </label>
-        <input type="text" name="paramGenitora" id="paramGenitora" size="100" maxlength="100" required />
+        <input type="text" name="paramGenitora" id="paramGenitora" size="100" min="1" max="100" required />
         <br />
         <label for="paramNomeCrianca">Nome completo da criança: </label>
-        <input type="text" name="paramNomeCrianca" id="paramNomeCrianca" size="100" required />
+        <input type="text" name="paramNomeCrianca" id="paramNomeCrianca" size="100" min="1" max="100" required />
         <br />
         <label for="paramdataDeNascimento">Data de nascimento da criança: </label>
-        <input type="number" name="paramdataDeNascimento" id="paramdataDeNascimento" size="8" min="8" max="8" required placeholder="(DDMMAAAA)" />
+        <input type="number" name="paramdataDeNascimento" id="paramdataDeNascimento" size="100" min="1" max="100" required placeholder="(DDMMAAAA)" />
         <br />
         <input type="submit" value="Registrar no Smart Contract" onclick="event.preventDefault(); saveFormData();" />
       </form>
