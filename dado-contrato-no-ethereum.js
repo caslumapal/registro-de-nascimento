@@ -1,7 +1,7 @@
-const contractAddress = "0x29e43B1C66a44E1b1eE018E6ad2273E7BD52E05A";
+const contractAddress = "0x0f8f7EFD97537eEC7EE8ff90677fC278Bd7Fa05b";
 var smartContract;
 var smartContractWithSigner;
-const ABI = [
+const ABI =[
 	{
 		"inputs": [
 			{
@@ -32,7 +32,7 @@ const ABI = [
 				"name": "",
 				"type": "bool"
 			}
-		]
+		],
 		"stateMutability": "nonpayable",
 		"type": "function"
 	},
