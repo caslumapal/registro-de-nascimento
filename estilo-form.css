@@ -7,7 +7,7 @@ label {
     font-size: 2vh;
 }
 
-body {background-image: url(...caslumapal/registro-de-nascimento/img-final.jpg);}
+body {background-image: url (img-final.jpg);}
 
 .areaprincipal {width: 55%;
                 background-color:rgb(169, 206, 255);
