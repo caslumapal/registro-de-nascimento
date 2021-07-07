@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="estilo-form.css" />
+    <link rel="stylesheet" href="estilo.css" />
     <title>Registro Nascimento</title>
   </head>
   <body onload="autoLoadOwner()">
@@ -36,22 +36,22 @@
     </section>
     <hr />
     <section>
-      <div>
+      <div class="areaprincipal">
         <h1>Dados do registro de nascimento:</h1>
       </div>
-      <div>
+      <div class="areaprincipal">
         <h2>Registrador Responsável: <span id="spanOwner"></span></h2>
       </div>
-      <div>
+      <div class="areaprincipal">
         Informe o numero do registro:
         <input type="number" name="numeroDoRegistro" id="numeroDoRegistro" size="10" min="1" max="99999" />
         <button onclick="obterDadosDoRegistro()">Buscar Dados</button>
       </div>
       <br />
-      <div>Nome completo do genitor: <span id="genitor"></span></div>
-      <div>Nome completo da genitora: <span id="genitora"></span></div>
-      <div>Nome completo da criança: <span id="nomeCrianca"></span></div>
-      <div>Data de nascimento da criança: <span id="dataDeNascimento"></span></div>
+      <div class="areaprincipal">Nome completo do genitor: <span id="genitor"></span></div>
+      <div class="areaprincipal">Nome completo da genitora: <span id="genitora"></span></div>
+      <div class="areaprincipal">Nome completo da criança: <span id="nomeCrianca"></span></div>
+      <div class="areaprincipal">Data de nascimento da criança: <span id="dataDeNascimento"></span></div>
     </section>
     <script
       type="text/javascript"
